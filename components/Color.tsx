@@ -17,8 +17,11 @@ export default Color;
 const styles = StyleSheet.create({
   content: {
     fontSize: 24,
+    paddingBlock: 20,
+    paddingInline: 50,
     color: 'red',
     fontWeight: 'bold',
+    borderRadius: 10,
   },
   white: {
     color: 'white',
